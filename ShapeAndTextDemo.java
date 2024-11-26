@@ -1,10 +1,12 @@
+package java_2d;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class ShapeAndTextDemo extends JPanel implements KeyListener {
     private int currentShapeIndex = 0; // Index to keep track of the current shape
-    private final String[] shapes = {"Circle", "Square", "Triangle"};
+    private final String[] shapes = {"BILAT", "BISONG", "HEHE"};
     
     public ShapeAndTextDemo() {
         setFocusable(true);
@@ -67,7 +69,7 @@ public class ShapeAndTextDemo extends JPanel implements KeyListener {
     public void keyTyped(KeyEvent e) {}
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Shape Changer");
+        JFrame frame = new JFrame("OTEN");
         ShapeAndTextDemo panel = new ShapeAndTextDemo();
 
         frame.add(panel);
